@@ -2,4 +2,6 @@
     <string name="app_name">PROJE</string>
     <string name="START">START</string>
     <string name="EXIT">EXIT</string>
+    <string name="NEXT">NEXT</string>
+    <string name="BACK">BACK</string>
 </resources>

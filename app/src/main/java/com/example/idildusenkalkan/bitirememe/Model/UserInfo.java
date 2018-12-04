@@ -1,7 +1,10 @@
 package com.example.idildusenkalkan.bitirememe.Model;
 
 public class UserInfo {
+
+    //kullanıcı şifresi(mail ile gelecek olan şifre)
     private String password ;
+    //kullanıcı id'si
     private int id ;
 
     public UserInfo (String password, int id){

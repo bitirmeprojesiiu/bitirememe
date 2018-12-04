@@ -16,8 +16,10 @@ import org.json.JSONObject;
 public class AuthenticationActivity extends AppCompatActivity {
 
     JSONObject json= new JSONObject();
+    //bu iki değişkeni test için yazmıştım json verisi alıp parçalanarak bunlar yerine kullanılacak
     private static int id =1;
     String passformdb="a";
+    //kullanıcı id ve mail ile gelen şifre
     String pass = json.getJSONObject("userInfo").getString("pass");
     Integer iid = json.getJSONObject("userInfo").getInt("id");
     boolean clickedToStartButton=false;
