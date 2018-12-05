@@ -3,7 +3,6 @@ package com.example.idildusenkalkan.bitirememe.View;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -28,7 +27,7 @@ public class ExamStartedActivity extends AppCompatActivity{
     String [] answers;
 
     JSONObject json= new JSONObject();
-    Integer numberOfQuestions = json.getJSONObject("examInfo").getInt("numberOfQuestions");
+    Integer numberOfQuestions = json.getJSONObject("exam").getInt("numberOfQuestions");
 
     //  String questions = json.getJSONObject("exam").getString("question");
   //  String answers =json.getJSONObject("exam").getString("answers");

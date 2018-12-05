@@ -7,9 +7,12 @@ public class UserInfo {
     //kullanıcı id'si
     private int id ;
 
+    public UserInfo(){}
+
     public UserInfo (String password, int id){
         this.id=id;
         this.password=password;
+
     }
 
     public int getId() {
